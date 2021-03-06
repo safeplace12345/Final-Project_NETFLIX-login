@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+   max-width: 100vw;
+
+}
+.netflix{
+    background: url('../src/assets/GR-en-20210222-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    width: 100%;
+}
+#lang2{
+    width: 30%;
+}
+.form{
+    margin: 0 auto;
+}
+.headers{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.header > h1{
+    font-size: 3.125rem;
+    font-weight: 900;
+}
+.custom{
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+}
+section{
+    border-bottom: 8px solid #222;
+    min-height: 100vh;
+    text-align: center;
+}
+.sections{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info > h2{
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+.frequently,.footer{
+    background-color: black;
+}
+.main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.questions,.thumb{
+    font-size: 1.5rem;
+    width: 80%;
+ background-color: #303030;
+ margin: 2px auto;
+}
+.tiles{
+    width: 80%;
+}
+#footerLinks > *{
+ width: 25%;   
+ color: white;
+ background-color: black;
+}
+.screens {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.monitor {
+	background: #000; 
+	position: relative;
+	border-top: 3px solid #888; 
+	margin: 5%;
+	padding: 2% 2% 4% 2%; 
+	border-radius: 10px; 
+	border-bottom-left-radius: 50% 2%; 
+	border-bottom-right-radius: 50% 2%; 
+	transition: margin-right 1s;
+}
+
+.monitor:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 3%;
+	left: 36%;
+	height: .5%; 
+	width: 28%;
+	background: #ddd; 
+	border-radius: 50%; 
+	box-shadow: 0 0 3px 0 white; 
+}
+
+.monitorscreen {
+	position: relative;
+  background-color: #777;
+	background-size: cover; 
+	background-position: top center;
+	height: 0; 
+	padding-bottom: 56.25%; 
+	position: relative;
+	overflow: hidden;
+}
+
