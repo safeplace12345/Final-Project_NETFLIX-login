@@ -12,7 +12,7 @@ body{
 
 }
 .netflix{
-    background: url('../src/assets/GR-en-20210222-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background: url('GR-en-20210222-popsignuptwoweeks-perspective_alpha_website_small.jpg');
     background-size: cover;
     width: 100%;
 }
